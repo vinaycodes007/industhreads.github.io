@@ -56,25 +56,31 @@
     <!-- product section -->
 
 
-    <main>
-        <div class="filter">
-
+    <main class="grid section" >
+        <div class="selection" style="grid-area: box1;">
+            <input type="search" id="search-bar" placeholder="Type to search items..." onkeyup="filterSearch()">    
         </div>
-        <div class="pr section">
-            
-                <div class="cards" style="grid-area:box1;">1</div>
-                <div class="cards" style="grid-area:box2;">2</div>
-                <div class="cards" style="grid-area:box3;">3</div>
-                <div class="cards" style="grid-area:box4;">4</div>
-                <div class="cards" style="grid-area:box5;">5</div>
-                <div class="cards" style="grid-area:box6;">6</div>
-                <div class="cards" style="grid-area:box7;">7</div>
-                <div class="cards" style="grid-area:box8;">8</div>
-                <div class="cards" style="grid-area:box9;">9</div>
-            
+        <div class="pr" style="grid-area: box2;" >
+            <div class="searchable-item cards">apple</div>
+            <div class="searchable-item cards">banana</div>
+            <div class="searchable-item cards">kela</div>
+            <div class="searchable-item cards">papita</div>
+            <div class="searchable-item cards">seb</div>
+            <div class="searchable-item cards">papaya</div>
+            <div class="searchable-item cards">watermelon</div>
+            <div class="searchable-item cards">tarbuj</div>
+            <div class="searchable-item  cards">aam</div> 
+            <div class="searchable-item cards">mango</div>
+            <div class="searchable-item cards">cheeku</div>
+            <div class="searchable-item cards">lichi</div> 
         </div>
+       
     </main>
-
+    <footer>
+        <div class="footer">
+            
+        </div>
+    </footer>
     <script>
 
         function showSidebar() {
@@ -87,6 +93,8 @@
             document.querySelector('.sidebar').style.display = 'none';
         }
     </script>
+
+    <script src="test.js"></script>
 </body>
 
 </html>
